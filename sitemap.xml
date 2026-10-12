@@ -6,12 +6,12 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
-    <loc>https://www.uswalkintubainfo.com/</loc>
+    <loc>https://madeinusawalkintubs.com/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://www.uswalkintubainfo.com/images/us-walk-in-tubs.png</image:loc>
+      <image:loc>https://madeinusawalkintubs.com/images/us-walk-in-tubs.png</image:loc>
       <image:title>USA Walk-In Tubs Authority Site</image:title>
     </image:image>
   </url>

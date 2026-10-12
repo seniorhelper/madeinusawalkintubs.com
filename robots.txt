@@ -26,5 +26,5 @@ Allow: /
 User-agent: Slurp
 Allow: /
 
-Sitemap: https://www.uswalkintubainfo.com/sitemap.xml
-Sitemap: https://www.uswalkintubainfo.com/sitemap-html.html
+Sitemap: https://madeinusawalkintubs.com/sitemap.xml
+Sitemap: https://madeinusawalkintubs.com/sitemap.html
