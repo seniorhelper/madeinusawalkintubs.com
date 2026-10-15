@@ -27,4 +27,3 @@ User-agent: Slurp
 Allow: /
 
 Sitemap: https://madeinusawalkintubs.com/sitemap.xml
-Sitemap: https://madeinusawalkintubs.com/sitemap.html
