@@ -125,5 +125,6 @@ if(Date.now()-t0<4000){say('Please check your details, then press the button aga
 busy=true;b.disabled=true;b.textContent='Sending…';var d={};new FormData(f).forEach(function(v,k){d[k]=v});
 fetch(f.action,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(d)}).then(function(r){return r.json()}).then(function(j){
 if(j&&String(j.success)==='true'){f.querySelector('.fgrid').hidden=true;f.querySelector('#f-msg').parentNode.hidden=true;b.parentNode.hidden=true;say('Thank you. Your request was sent to Aging Safely Baths, and someone will call you back.',true)}else throw 0}).catch(function(){busy=false;b.disabled=false;b.textContent='Request a callback';say('Sorry, your request did not go through. Please call 1-888-779-2284 and we will help you directly.',false)})});})();</script>
+<script src="/lead-send.js" defer></script>
 </body>
 </html>
