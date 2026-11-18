@@ -1,11 +1,19 @@
 User-agent: *
 Allow: /
 
-# Allow AI and LLM crawlers
 User-agent: GPTBot
 Allow: /
 
-User-agent: Claude-Web
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
 Allow: /
 
 User-agent: anthropic-ai
@@ -14,16 +22,10 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: CCBot
+User-agent: Google-Extended
 Allow: /
 
-User-agent: Bingbot
-Allow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Slurp
+User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://madeinusawalkintubs.com/sitemap.xml
